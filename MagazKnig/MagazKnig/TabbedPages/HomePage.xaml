@@ -104,7 +104,6 @@
                 HasUnevenRows="True"
                 HorizontalOptions="Fill"
                 IsPullToRefreshEnabled="True"
-                ItemTapped="GoodsLstViw_ItemTapped"
                 SeparatorVisibility="None">
 
         </ListView>

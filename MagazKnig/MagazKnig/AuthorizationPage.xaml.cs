@@ -18,7 +18,7 @@ namespace MagazKnig
 
         private async void LoginBtn_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new NavigationPage(new Page1()));
+            await Navigation.PushModalAsync(new NavigationPage(new InfoPage()));
         }
     }
 }

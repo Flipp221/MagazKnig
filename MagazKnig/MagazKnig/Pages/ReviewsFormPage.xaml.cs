@@ -12,6 +12,8 @@ namespace MagazKnig.Pages
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ReviewsFormPage : ContentPage
     {
+        public int count { get; private set; }
+
         public ReviewsFormPage()
         {
             InitializeComponent();

@@ -1,20 +1,24 @@
-﻿using MagazKnig.Pages;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MagazKnig.TabbedPages
+namespace MagazKnig
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class HomePage : ContentPage
+    public partial class BookInfoPage : ContentPage
     {
-        public HomePage()
+        public BookInfoPage()
         {
             InitializeComponent();
         }
         private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new AddBookPage());
+            await Navigation.PopAsync();
         }
     }
 }

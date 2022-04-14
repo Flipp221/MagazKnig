@@ -20,5 +20,9 @@ namespace MagazKnig.Pages
         {
             await Navigation.PopAsync();
         }
+        private async void Back_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
     }
 }

@@ -5,68 +5,69 @@
              NavigationPage.HasNavigationBar="False" 
              BackgroundColor="#292626">
     <StackLayout>
-        <StackLayout>
-            <StackLayout Orientation="Horizontal" >
-                <Label Padding="10,20"
+        <StackLayout Orientation="Horizontal" >
+            <Label Padding="10,20"
             FontAttributes="None"
             FontFamily="MaterialIconsFont"
             FontSize="43"
             HorizontalOptions="Start"
             Text="chevron_left"
-            TextColor="#585858"
+            TextColor="White"
             VerticalOptions="Center">
-                    <Label.GestureRecognizers>
-                        <TapGestureRecognizer x:Name="Back" Tapped="Back_Tapped"/>
-                    </Label.GestureRecognizers>
-                </Label>
-                <Label Text="Добавление книг" TextColor="#585858" FontSize="24" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+            <Label Text="Редактирование" TextColor="White" FontSize="24" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+
+        <StackLayout Margin="50,0" Spacing="20">
+            <Label Text="ФИО" TextColor="#ACACAC"/>
+            <Entry BackgroundColor="#303030" TextColor="#ACACAC"/>
+
+            <Label Text="Номер телефона" TextColor="#ACACAC"/>
+            <Entry BackgroundColor="#303030" TextColor="#ACACAC"/>
+
+            <Label Text="Логин" TextColor="#ACACAC"/>
+            <Entry BackgroundColor="#303030" TextColor="#ACACAC"/>
+
+            <Label Text="Пароль" TextColor="#ACACAC"/>
+            <Entry BackgroundColor="#303030" TextColor="#ACACAC"/>
+
+            <StackLayout
+                Margin="20,0"
+                Padding="20"
+                BackgroundColor="#303030"
+                Orientation="Horizontal">
+                <Label
+                    FontFamily="MaterialIconsFont"
+                    FontSize="28"
+                    HorizontalOptions="Start"
+                    Text="add"
+                    TextColor="#575757"
+                    VerticalOptions="CenterAndExpand" />
+                <Label
+                    BackgroundColor="#303030"
+                    FontSize="24"
+                    HorizontalOptions="StartAndExpand"
+                    Text="Добавить фото"
+                    TextColor="#575757"
+                    VerticalOptions="CenterAndExpand" />
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer/>
+                </StackLayout.GestureRecognizers>
             </StackLayout>
-
-            <ScrollView>
-                <StackLayout>
-                    <StackLayout Margin="50,0" Spacing="20">
-                        <Label Text="Название" TextColor="#ACACAC"/>
-                        <Entry x:Name="NameBook" BackgroundColor="#303030" TextColor="#ACACAC"/>
-                        <ImageButton x:Name="logo" Source="plus.png"/>
-
-                        <Label Text="Автор" TextColor="#ACACAC"/>
-                        <Entry x:Name="Author" BackgroundColor="#303030" TextColor="#ACACAC"/>
-
-                        <Frame Padding="0" IsClippedToBounds="True">
-                            <Picker
-                            x:Name="GenreBook"
-                            Title="Жанр"
-                            BackgroundColor="#303030"
-                            TitleColor="#ACACAC" TextColor="White" />
-                        </Frame>
-
-                        <Label Text="Год" TextColor="#ACACAC"/>
-                        <Entry BackgroundColor="#303030" x:Name="YearBook" TextColor="#ACACAC"/>
-
-                        <Label Text="Страна" TextColor="#ACACAC"/>
-                        <Entry x:Name="Countrybook" BackgroundColor="#303030" TextColor="#ACACAC"/>
-
-                        <Label Text="Описание" TextColor="#ACACAC"/>
-                        <Entry x:Name="Descriptionbook" BackgroundColor="#303030" TextColor="#ACACAC"/>
-
-                        <Label Text="Цена" TextColor="#ACACAC"/>
-                        <Entry x:Name="PriceBook" BackgroundColor="#303030" TextColor="#ACACAC"/>
-
-                    </StackLayout>
-
-                    <Button Text="Добавить"
+            <Button x:Name="UpdateProfilBTN" Text="Редактировать"
                         Padding="20,10"
                     Margin="30"
                         BorderColor="#FFBE65"
                         BorderWidth="2"
                         BackgroundColor="#2A2A2A"
                         CornerRadius="10"
-                        Clicked="Button_Clicked"
                         FontSize="14"
                         TextColor="#FFBE65"
                         TextTransform="None"/>
-                </StackLayout>
-            </ScrollView>
         </StackLayout>
     </StackLayout>
+
 </ContentPage>
