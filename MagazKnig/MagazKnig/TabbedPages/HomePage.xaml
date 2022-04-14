@@ -43,7 +43,7 @@
                             x:Name="FantasyBtn"
                             BackgroundColor="Transparent"
                             FontSize="14"
-                            Text="Фэнтези"
+                            Text="Популярное"
                             TextColor="#8B8DC0" />
                         <BoxView
                             x:Name="FantasyBoxVw"
@@ -56,7 +56,7 @@
                             x:Name="DetectivBtn"
                             BackgroundColor="Transparent"
                             FontSize="14"
-                            Text="Детектив"
+                            Text="Новинки"
                             TextColor="#8B8DC0" />
                         <BoxView
                             x:Name="DetectivBoxVw"
@@ -72,25 +72,10 @@
                             BorderColor="White"
                             BorderWidth="0"
                             FontSize="14"
-                            Text="Приключения"
+                            Text="Скоро в продаже"
                             TextColor="#8B8DC0" />
                         <BoxView
                             x:Name="TravelBoxVw"
-                            Margin="15,-10,15,10"
-                            HeightRequest="1"
-                            IsVisible="False"
-                            Color="#8B8DC0" />
-                    </StackLayout>
-                    <StackLayout>
-                        <Button
-                            x:Name="Horror"
-                            BackgroundColor="Transparent"
-
-                            FontSize="14"
-                            Text="Ужасы"
-                            TextColor="#8B8DC0" />
-                        <BoxView
-                            x:Name="HorrorBoxVw"
                             Margin="15,-10,15,10"
                             HeightRequest="1"
                             IsVisible="False"

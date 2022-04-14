@@ -13,7 +13,7 @@
             FontFamily="MaterialIconsFont"
             FontSize="43"
             HorizontalOptions="Start"
-            Text="&#xe872;"
+            Text="chevron_left"
             TextColor="#585858"
             VerticalOptions="Center">
                 <Label.GestureRecognizers>
@@ -35,6 +35,29 @@
 
             <Label Text="Пароль" TextColor="#ACACAC"/>
             <Entry x:Name="PassEntry" BackgroundColor="#303030" TextColor="#ACACAC"/>
+            <StackLayout
+                Margin="20,0"
+                Padding="20"
+                BackgroundColor="#303030"
+                Orientation="Horizontal">
+                <Label
+                    FontFamily="MaterialIconsFont"
+                    FontSize="28"
+                    HorizontalOptions="Start"
+                    Text="add"
+                    TextColor="#575757"
+                    VerticalOptions="CenterAndExpand" />
+                <Label
+                    BackgroundColor="#303030"
+                    FontSize="24"
+                    HorizontalOptions="StartAndExpand"
+                    Text="Добавить фото"
+                    TextColor="#575757"
+                    VerticalOptions="CenterAndExpand" />
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer/>
+                </StackLayout.GestureRecognizers>
+            </StackLayout>
 
             <Button x:Name="RegisterBtn" Text="Зарегистрироваться"
                     Clicked="RegisterBtn_Clicked"

@@ -51,15 +51,15 @@
                         Placeholder="Password" TextColor="White" 
                         PlaceholderColor="#B2B2B2"
                         VerticalOptions="CenterAndExpand" />
-                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="CenterAndExpand" Margin="0,0,10,0" 
+                    <StackLayout Orientation="Horizontal" Spacing="50" HorizontalOptions="CenterAndExpand" Margin="0,0,10,0" 
                         Grid.Row="1">
                         <Button
                         x:Name="LoginBtn"
-                        Padding="20,10"
+                        Padding="40,10"
                         BorderColor="#FFBE65"
                             BorderWidth="2"
                         BackgroundColor="#2A2A2A"
-                        CornerRadius="10"
+                        CornerRadius="15"
                         FontSize="16"
                         Text="Войти"
                         TextColor="#FFBE65"
@@ -71,7 +71,7 @@
                         BorderColor="#F16F54"
                             BorderWidth="2"
                         BackgroundColor="#2A2A2A"
-                        CornerRadius="10"
+                        CornerRadius="15"
                         FontSize="16"
                         Text="Регистрация"
                         TextColor="#F16F54"
