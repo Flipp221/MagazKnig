@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32407.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagazKnig.Android", "MagazKnig\MagazKnig.Android\MagazKnig.Android.csproj", "{3577E1B8-BF40-43BD-A255-70BC27245AF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagazKnig", "MagazKnig\MagazKnig\MagazKnig.csproj", "{DF9948A1-FBD0-4566-B53B-4D1CFA217E81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3577E1B8-BF40-43BD-A255-70BC27245AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3577E1B8-BF40-43BD-A255-70BC27245AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3577E1B8-BF40-43BD-A255-70BC27245AF0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3577E1B8-BF40-43BD-A255-70BC27245AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3577E1B8-BF40-43BD-A255-70BC27245AF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3577E1B8-BF40-43BD-A255-70BC27245AF0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DF9948A1-FBD0-4566-B53B-4D1CFA217E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF9948A1-FBD0-4566-B53B-4D1CFA217E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF9948A1-FBD0-4566-B53B-4D1CFA217E81}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DF9948A1-FBD0-4566-B53B-4D1CFA217E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF9948A1-FBD0-4566-B53B-4D1CFA217E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF9948A1-FBD0-4566-B53B-4D1CFA217E81}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF990242-E343-4A0E-80C9-787E4D72DC36}
+	EndGlobalSection
+EndGlobal
